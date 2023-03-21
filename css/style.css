@@ -10,7 +10,7 @@
 
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: #fff;
+  background-color: #ffae00;
   color: #000;
 }
 
@@ -336,7 +336,17 @@ section {
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
 } */
+
 /* Animation */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes fadeInUp {
   0% {
     opacity: 0;
