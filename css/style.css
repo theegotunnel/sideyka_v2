@@ -357,12 +357,13 @@ section {
     transform: translateY(0);
   }
 }
+video {
+  display: none;
+}
 
-/* Media Querries */
-
-/* Video BG */
 @media (min-width: 1280px) {
   video {
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
@@ -375,6 +376,11 @@ section {
     background-image: none;
   }
 }
+
+/* Media Querries */
+
+/* Video BG */
+
 @media (max-width: 960px) {
   /* Hide Desktop Menu */
   .desktop-main-menu {
