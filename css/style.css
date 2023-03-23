@@ -155,14 +155,6 @@ section {
   opacity: 70%;
 }
 
-/* .btn {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  overflow: hidden;
-  z-index: 2;
-} */
-
 /* Hamburger */
 .hamburger {
   position: fixed;
