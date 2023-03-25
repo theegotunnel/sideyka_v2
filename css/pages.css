@@ -110,7 +110,7 @@
 
 .section-inner-center h3 {
   font-size: 45px;
-  padding-bottom: 50px;
+  padding-bottom: 2rem;
   animation: fadeInUp 0.5s ease-in-out;
   color: #fff;
   text-align: center;
@@ -136,4 +136,23 @@
   mix-blend-mode: normal;
   opacity: 70%;
   z-index: -2;
+}
+
+/* About Us */
+.flex {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+#contacts-h3 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0px !important;
+  padding-bottom: 1rem;
+}
+
+a:hover {
+  color: #ffae00;
+  transition: all 0.3s ease-in-out;
 }

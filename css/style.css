@@ -22,6 +22,15 @@ a {
 ul {
   list-style: none;
 }
+.center {
+  display: block;
+  margin: 2rem auto;
+}
+
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
 
 /* Header/Navbar */
 .main-header {
@@ -133,7 +142,7 @@ section {
 
 .section-inner {
   position: absolute;
-  bottom: 30%;
+  bottom: 35%;
   left: 10%;
   max-width: 80%;
 }
@@ -368,10 +377,46 @@ video {
     background-image: none;
   }
 }
+@media (max-width: 660px) {
+  .logo {
+    display: none;
+  }
+  .section-inner-center {
+    padding: 100px 25px 50px 25px !important;
+  }
+
+  .section-inner-center h3 {
+    font-size: 1.4rem !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .logo a {
+    font-size: 0.8rem;
+  }
+  .text h2 {
+    font-size: 2em;
+  }
+
+  .text p {
+    font-size: 0.8em;
+  }
+  video {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .section-a {
+    background-image: none;
+  }
+}
 
 /* Media Querries */
-
-/* Video BG */
 
 @media (max-width: 960px) {
   /* Hide Desktop Menu */
@@ -384,9 +429,8 @@ video {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 300px) {
   .section-inner {
-    bottom: 75px;
-    left: 20px;
+    bottom: 15%;
   }
 } ;
