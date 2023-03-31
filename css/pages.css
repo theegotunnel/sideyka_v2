@@ -105,10 +105,10 @@
 .section-inner-center {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 180px 25px 50px 25px;
 }
 
-.section-inner-center h3 {
+.section-inner-center h3,
+.texth3 {
   font-size: 45px;
   padding-bottom: 2rem;
   animation: fadeInUp 0.5s ease-in-out;
@@ -155,4 +155,35 @@
 a:hover {
   color: #ffae00;
   transition: all 0.3s ease-in-out;
+}
+
+/* Sideyka Vitesbk */
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.btn-donation {
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  animation: fadeInUp 0.7s ease-in-out 0.4s;
+  animation-fill-mode: both;
+}
+
+.btn-donation:hover {
+  background: #ffae00;
+}
+
+.btn-donation > a {
+  color: #111;
+  text-transform: uppercase;
 }
