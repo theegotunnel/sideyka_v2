@@ -34,6 +34,12 @@ ul {
 .padding180 {
   padding-top: 180px;
 }
+#not_clickable {
+  pointer-events: none !important;
+}
+.projects {
+  display: flex;
+}
 /* Header/Navbar */
 .main-header {
   position: fixed;
@@ -390,6 +396,9 @@ video {
   .section-inner-center h3 {
     font-size: 1.4rem !important;
   }
+  .text a {
+    font-size: 0.8em;
+  }
 }
 
 @media (max-width: 960px) {
@@ -415,6 +424,9 @@ video {
   }
   .section-a {
     background-image: none;
+  }
+  .projects {
+    flex-wrap: wrap;
   }
 }
 
