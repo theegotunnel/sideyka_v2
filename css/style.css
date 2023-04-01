@@ -34,6 +34,9 @@ ul {
 .padding180 {
   padding-top: 180px;
 }
+.margin_top_25px {
+  margin-top: 25px;
+}
 #not_clickable {
   pointer-events: none !important;
 }
@@ -427,6 +430,7 @@ video {
   }
   .projects {
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
