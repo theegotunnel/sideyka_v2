@@ -43,6 +43,10 @@ ul {
 .projects {
   display: flex;
 }
+.orange {
+  color: #ffae00;
+}
+
 /* Header/Navbar */
 .main-header {
   position: fixed;
@@ -451,4 +455,8 @@ video {
   .section-inner {
     bottom: 15%;
   }
+}
+
+.card-bg {
+  background-color: #3e3838d6;
 }

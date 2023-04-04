@@ -29,7 +29,7 @@
 } */
 
 .sideyka {
-  background-image: url(../res/imgs/sideyka_img_bg2.JPG);
+  background-image: url(../res/imgs/sideykabg2.jpg);
   position: fixed;
   top: 0;
   right: 0;
@@ -134,7 +134,7 @@
   height: 100vh;
   background-color: #111;
   mix-blend-mode: normal;
-  opacity: 70%;
+  opacity: 90%;
   z-index: -2;
 }
 
