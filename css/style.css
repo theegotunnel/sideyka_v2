@@ -47,6 +47,12 @@ ul {
   color: #ffae00;
 }
 
+.responsive {
+  width: 70%;
+  height: auto;
+  border-radius: 10px;
+}
+
 /* Header/Navbar */
 .main-header {
   position: fixed;
