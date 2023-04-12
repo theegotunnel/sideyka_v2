@@ -13,7 +13,9 @@ body {
   background-color: #ffae00;
   color: #000;
 }
-
+.mobile-only {
+  display: none;
+}
 a {
   text-decoration: none;
   color: #fff;
@@ -53,6 +55,11 @@ ul {
   border-radius: 10px;
 }
 
+.flex_row {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Header/Navbar */
 .main-header {
   position: fixed;
@@ -67,6 +74,9 @@ ul {
   height: 6rem;
   padding: 0 2rem;
 }
+.logotype {
+  width: 200px;
+}
 
 .logo > a {
   font-weight: bold;
@@ -75,6 +85,9 @@ ul {
 .logo > a:hover {
   color: #ffae00;
   transition: all 0.3s ease-in-out;
+}
+a:hover {
+  color: #ffae00;
 }
 
 /* Desktop Menu */
@@ -450,6 +463,15 @@ video {
   /* Hide Desktop Menu */
   .desktop-main-menu {
     display: none;
+  }
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .logotype {
+    width: 120px;
   }
   .logo {
     margin: auto;

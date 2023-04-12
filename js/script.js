@@ -13,3 +13,14 @@ function navToggle() {
   btnHamburgerM.classList.toggle('black');
   btnHamburgerB.classList.toggle('black');
 }
+
+// document.addEventListener('click', (e) => {
+//   const click = e.composedPath().includes(btn);
+//   if (!click) {
+//     menu.classList.toggle('show-menu');
+//     btn.classList.toggle('open');
+//     btnHamburgerT.classList.toggle('black');
+//     btnHamburgerM.classList.toggle('black');
+//     btnHamburgerB.classList.toggle('black');
+//   }
+// });
